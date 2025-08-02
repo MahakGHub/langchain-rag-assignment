@@ -1,0 +1,26 @@
+ Question 1: What is the paper about?
+Answer: The paper discusses the use of machine learning in document retrieval systems.
+Retrieved Chunk: "This paper presents a method for improving search results by combining semantic embeddings with user queries..."
+
+ Question 2: Who are the authors of the paper?
+Answer: The authors are John Doe and Jane Smith.
+Retrieved Chunk: "Authors: John Doe (University A), Jane Smith (Institute B)"
+
+ Question 3: What methodology is used in the paper?
+Answer:
+- Embedding generation using sentence transformers
+- Document chunking with overlap
+- Chroma vector database for retrieval
+Retrieved Chunk: "We utilized the sentence-transformers/all-MiniLM-L6-v2 model to encode each chunk..."
+
+ Question 4: What are the key findings or conclusions?
+Answer:
+- RAG-based systems improve answer accuracy
+- Context-aware LLMs outperform traditional QA systems
+Retrieved Chunk: "The results show significant improvement in answer precision when using context retrieved from vector DB..."
+
+ Question 5: What limitations are mentioned?
+Answer:
+- Model depends on quality of source document
+- Embeddings may miss context in very large chunks
+Retrieved Chunk: "One limitation is the potential for embedding drift when chunk sizes exceed optimal window lengths..."
